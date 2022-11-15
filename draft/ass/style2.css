@@ -1,0 +1,164 @@
+.section2{
+    padding-top: 48px;
+    padding-bottom: 48px;
+    width: 100%;
+    margin: 0%;
+}
+.h2-1{
+    font-weight: lighter;
+    font-size: 2.5rem;
+    margin-top: 0%;
+    margin-bottom: 48px;
+}
+.text-section{
+    justify-content: center;
+    padding-top: 0px;
+    padding-left: 150px;
+    padding-right: 150px;
+    text-align: center!important;
+}
+.span1{
+    font-weight: bold;
+}
+.all{
+    justify-content: right;
+    flex-direction: row;
+}
+body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+.max{
+    margin-bottom: 48px;
+    justify-content: center;
+    background-color: #3597ff;
+}
+.text1{
+    font-size: 40px;
+    font-weight: 300;
+    margin-top: 48px;
+    margin-top: 24px;
+}
+.aids{
+    color: white;
+    max-width: 450px;
+    margin-top: 20px;
+    padding: 30px;
+}
+.imgur{
+    width: 540px;
+    height: 420px;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.p1{
+    margin-top: 48px;
+}
+.pcolor{
+    color: #566b8d;
+}
+.p2{
+    margin: 0px 48px 16px 48px;
+}
+.pain{
+    justify-content: center;
+    text-align: center!important;
+    padding: 24px 12px 24px 12px;
+}
+.internship{
+    padding: 48px 12px 0px 12px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.internship-text{
+    padding: 16px 0px 16px 0px;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+.h4{
+    margin: 0px 0px 8px 0px;
+}
+.p3{
+    margin: 0%;
+    max-width: 306px;
+    text-align: left;
+}
+.section3{
+    padding: 48px 0px 48px 0px;
+}
+.divhell{
+    width: 45%;
+    height: 400px;
+    padding: 0px 100px 0px 8px;
+    align-content: flex-end;
+}
+.blue{
+    background-color: rgba(221, 236, 251, 0.4);
+    color: #5b94d7;
+}
+.yellow{
+    color:#dbca68 ;
+    background-color:rgba(238, 226, 156, 0.4);
+}
+.red{
+    color:#b95e73 ;
+    background-color:rgba(238, 156, 156, 0.4) ;
+}
+.green{
+    color:#5cc19a ;
+    background-color:rgba(156, 238, 204, 0.4) ;
+}
+.box{
+    height: 151px;
+    width: 185px;
+    padding: 16px 24px 16px 24px;
+    margin: 8px;
+    border-radius: 4px;
+}
+.beeg{
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 1;
+    margin: 0px 0px 4px 0px;
+}
+.smol{
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0%;
+}
+.section3-text{
+    padding: 100px 12px 0px 104px;
+    height: 500px;
+    flex-direction: column;
+    width: 50%;
+}
+.h2-1{
+    margin-bottom: 58px;
+}
+.p4{
+    margin: 0px 0px 16px 0px;
+}
+.p5{
+    margin-top: 16px;
+}
+.spacing{
+    letter-spacing: 1px;
+}
+.flex{
+    display: flex;
+}
+.auto{
+    height: auto;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.font{
+    font-family: sans-serif;
+}
+.flexend{
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
