@@ -89,8 +89,8 @@ body{
 }
 .divhell{
     width: 45%;
-    height: 400px;
-    padding: 0px 100px 0px 8px;
+    height: 450px;
+    padding: 20px 25px 0px 8px;
     align-content: flex-end;
 }
 .blue{
@@ -110,8 +110,8 @@ body{
     background-color:rgba(156, 238, 204, 0.4) ;
 }
 .box{
-    height: 151px;
-    width: 185px;
+    height: 183px;
+    width: 233px;
     padding: 16px 24px 16px 24px;
     margin: 8px;
     border-radius: 4px;
@@ -161,4 +161,41 @@ body{
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-end;
+}
+.textweight {
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+.textweight2 {
+    font-weight: bold;
+}
+.section4div {
+    padding: 0px 108px 0px 108px;
+    margin: 24px 12px 24px 12px;
+}
+.cards {
+    flex-direction: row;
+    margin: 0px 12px 0px 12px;
+}
+.h4size {
+    font-size: 1.25rem;
+}
+.psize {
+    font-size: 0.875rem;
+}
+.cardboxes {
+    padding: 24px 48px 24px 48px;
+    width: 270px;
+}
+.alignbottom {
+    align-items: center;
+    display: flex;
+    margin-right: 85px;
+}
+.cardpmargins {
+    margin-bottom: 10px;
+}
+.kokot {
+    bottom: -1260px;
+    position: absolute;
 }
