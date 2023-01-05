@@ -21,7 +21,6 @@
     font-weight: bold;
 }
 .all{
-    justify-content: right;
     flex-direction: row;
 }
 body{
@@ -31,12 +30,15 @@ body{
 }
 .max{
     margin-bottom: 48px;
-    justify-content: center;
     background-color: #3597ff;
 }
+.min {
+    padding: 0px 12px 0px 12px;
+    margin: 0px 102px 0px 102px;
+    justify-content: center; 
+}
 .text1{
-    font-size: 40px;
-    font-weight: 300;
+    font-size: 35px;
     margin-top: 48px;
     margin-top: 24px;
 }
@@ -49,7 +51,7 @@ body{
 .imgur{
     width: 540px;
     height: 420px;
-    margin-left: 80px;
+    margin-left: 200px;
     margin-top: 20px;
 }
 .p1{
@@ -60,6 +62,12 @@ body{
 }
 .p2{
     margin: 0px 48px 16px 48px;
+}
+.decor1 {
+    position: absolute;
+    height: 482px;
+    left: 85%;
+    top: 40%;
 }
 .pain{
     justify-content: center;
@@ -201,6 +209,5 @@ body{
     margin-bottom: 10px;
 }
 .kokot {
-    bottom: -1260px;
     position: absolute;
 }
