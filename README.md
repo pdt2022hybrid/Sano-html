@@ -1,2 +1,3 @@
-# Sano-kostial-html
+# Sano-html
 moje html
+(hlavne openlab stranka)
