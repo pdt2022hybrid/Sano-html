@@ -74,6 +74,9 @@ body{
 .m-b48 {
     margin-bottom: 48px;
 }
+.m-b4 {
+    margin-bottom: 4px;
+}
 .m-bs{
     margin: 0px 48px 16px 48px;
 }
@@ -103,7 +106,8 @@ body{
     position: absolute!important;
     width: 241px;
     right: 0;
-    bottom: -300px;
+    z-index: 0;
+    bottom: -20px;
     overflow: hidden!important;
 }
 .decor1 {
@@ -180,6 +184,15 @@ body{
     flex-direction: column;
     width: 50%;
 }
+.alingI-fend {
+    align-items: flex-end;
+}
+.fcolumn {
+    flex-direction: column;
+}
+.frow {
+    flex-direction: row;
+}
 .align-items-center {
     align-items: center;
 }
@@ -194,6 +207,12 @@ body{
 }
 .jc-center {
     justify-content: center;
+}
+.jc-space-between {
+    justify-content: space-between;
+}
+.jc-fstart {
+    justify-content: flex-start;
 }
 .flexend{
     flex-direction: column;
@@ -210,7 +229,10 @@ body{
 .txt-center {
     text-align: center;
 }
-.section4div {
+.word-wrap {
+    word-wrap: break-word;
+}
+.sectionborder {
     padding: 0px 108px 0px 108px;
     margin: 24px 12px 24px 12px;
 }
@@ -262,4 +284,24 @@ body{
 }
 .fw-light {
     font-weight: 300;
+}
+.fw-bold {
+    font-weight: 700;
+}
+.blue {
+    color: #3597ff;
+}
+.txt-deco-none {
+    text-decoration: none;
+}
+.fs-6 {
+    font-size: 1.125rem;
+}
+.vsmol {
+    height: 15px;
+    margin-right: 5px;
+}
+.announce {
+    font-size: 15px;
+    color: red;
 }
