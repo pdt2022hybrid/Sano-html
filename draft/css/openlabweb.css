@@ -1,3 +1,7 @@
+* {
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
 .section2{
     padding-top: 48px;
     padding-bottom: 48px;
@@ -54,24 +58,53 @@ body{
     margin-left: 80px;
     margin-top: 20px;
 }
-.p1{
+.infop {
+    padding-top: 24px;
+    padding-bottom: 12px;
+}
+.m-t48{
     margin-top: 48px;
+}
+.m-r48 {
+    margin-right: 48px;
+}
+.m-l48 {
+    margin-left: 48px;
+}
+.m-b48 {
+    margin-bottom: 48px;
+}
+.m-bs{
+    margin: 0px 48px 16px 48px;
 }
 .pcolor{
     color: #566b8d;
 }
-.p2{
-    margin: 0px 48px 16px 48px;
+.m-b2{
+    margin-bottom: 58px;
+}
+.m-b1{
+    margin: 0px 0px 16px 0px;
+}
+.m-t1{
+    margin-top: 16px;
+}
+.p-s12 {
+    padding: 0px 12px 0px 12px;
+}
+.m-b16 {
+    margin-bottom: 16px;
+}
+.m-b8{
+    margin: 0px 0px 8px 0px;
 }
 .decor {
     height: 482px;
     position: absolute!important;
     width: 241px;
     right: 0;
-    bottom: -20px;
-    z-index: 0;
+    bottom: -300px;
     overflow: hidden!important;
-    display: block!important;
 }
 .decor1 {
     position: absolute!important;
@@ -93,15 +126,12 @@ body{
     font-weight: 700;
     font-size: 1.25rem;
 }
-.h4{
-    margin: 0px 0px 8px 0px;
-}
 .p3{
     margin: 0%;
     max-width: 306px;
     text-align: left;
 }
-.section3{
+.m-s48{
     padding: 48px 0px 48px 0px;
 }
 .divhell{
@@ -150,17 +180,8 @@ body{
     flex-direction: column;
     width: 50%;
 }
-.h2-1{
-    margin-bottom: 58px;
-}
-.p4{
-    margin: 0px 0px 16px 0px;
-}
-.p5{
-    margin-top: 16px;
-}
-.spacing{
-    letter-spacing: 1px;
+.align-items-center {
+    align-items: center;
 }
 .flex{
     display: flex;
@@ -171,8 +192,8 @@ body{
 .wrap{
     flex-wrap: wrap;
 }
-.font{
-    font-family: sans-serif;
+.jc-center {
+    justify-content: center;
 }
 .flexend{
     flex-direction: column;
@@ -184,7 +205,10 @@ body{
     font-weight: 300;
 }
 .textweight2 {
-    font-weight: bold;
+    font-weight: 700;
+}
+.txt-center {
+    text-align: center;
 }
 .section4div {
     padding: 0px 108px 0px 108px;
@@ -196,6 +220,9 @@ body{
 }
 .h4size {
     font-size: 1.25rem;
+}
+.frow-wrap {
+    flex-flow: row wrap;
 }
 .psize {
     font-size: 0.875rem;
@@ -220,4 +247,19 @@ body{
 }
 .kokot {
     position: absolute;
+}
+.schoolimg {
+    height: 270.25px;
+    width: 526px;
+    border-radius: 3px;
+}
+.width100 {
+    width: 100%;
+}
+.address {
+    margin-top: -4px;
+    margin-bottom: 24px;
+}
+.fw-light {
+    font-weight: 300;
 }
