@@ -2,11 +2,30 @@
     font-family: sans-serif;
     letter-spacing: 1px;
 }
+.position {
+    position: absolute;
+    bottom: 55px;
+    right: 0;
+}
+.me {
+    padding: 8px 0px 8px 0px;
+}
+.bg-lighter {
+    background-color: #f3f9ff;
+}
+.students {
+    width: 636px;
+}
 .section2{
     padding-top: 48px;
     padding-bottom: 48px;
     width: 100%;
     margin: 0%;
+}
+.h2but1 {
+    font-weight: lighter;
+    font-size: 2.5rem;
+    margin-bottom: 0;
 }
 .h2-1{
     font-weight: lighter;
@@ -62,6 +81,22 @@ body{
     padding-top: 24px;
     padding-bottom: 12px;
 }
+.p-specificAF {
+    padding: 42px 16px 0px 16px;
+}
+.m-l110 {
+    margin-left: 110px;
+}
+.p-y3 {
+    padding-top: 3rem;
+}
+.p-ud3 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.m-r8 {
+    margin-right: 8px;
+}
 .m-t48{
     margin-top: 48px;
 }
@@ -73,6 +108,9 @@ body{
 }
 .m-b48 {
     margin-bottom: 48px;
+}
+.p-b48 {
+    padding-bottom: 48px;
 }
 .m-b4 {
     margin-bottom: 4px;
@@ -101,6 +139,25 @@ body{
 .m-b8{
     margin: 0px 0px 8px 0px;
 }
+.m0 {
+    margin: 0;
+}
+.width550 {
+    width: 526px;
+}
+.qt {
+    top: -30px;
+    left: -15px;
+}
+.decordiv2 {
+    width: 213px;
+    height: 600px;
+    z-index: 0;
+    position: absolute!important;
+    overflow: hidden!important;
+    right: 0;
+    bottom: -260px;
+}
 .decor {
     height: 482px;
     position: absolute!important;
@@ -114,6 +171,19 @@ body{
     position: absolute!important;
     width: 482px;
     max-width: none;
+}
+.decor2 {
+    width: 436px;
+    max-width: none;
+}
+.fs-12 {
+    font-size: 15px;
+}
+.fs-7 {
+    font-size: 0.875rem;
+}
+.fw-600 {
+    font-weight: 600;
 }
 .pain{
     justify-content: center;
@@ -184,6 +254,9 @@ body{
     flex-direction: column;
     width: 50%;
 }
+.pos-relative {
+    position: relative!important;
+}
 .alingI-fend {
     align-items: flex-end;
 }
@@ -235,6 +308,12 @@ body{
 .sectionborder {
     padding: 0px 108px 0px 108px;
     margin: 24px 12px 24px 12px;
+}
+.container {
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: 108px;
+    margin-right: 108px;
 }
 .cards {
     flex-direction: row;
