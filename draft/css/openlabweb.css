@@ -7,6 +7,27 @@
     bottom: 55px;
     right: 0;
 }
+.markodiv1 {
+    background-image: url(https://openlab.sk/wp-content/themes/wp-bootstrap-starter/assets/images/arrow-slide-left.svg);
+    border: 0px;
+    height: 33px;
+    width: 32px;
+    background-color: #f3f9ff;
+    padding: 0px;
+}
+.markodiv1:hover {
+    background-image: url(https://openlab.sk/wp-content/themes/wp-bootstrap-starter/assets/images/arrow-slide-left-active.svg);
+}
+.markodiv2 {
+    background-image: url(https://openlab.sk/wp-content/themes/wp-bootstrap-starter/assets/images/arrow-slide-right.svg);
+    border: 0px;
+    height: 33px;
+    width: 33px;
+    background-color: #f3f9ff;
+}
+.markodiv2:hover {
+    background-image: url(https://openlab.sk/wp-content/themes/wp-bootstrap-starter/assets/images/arrow-slide-right-active.svg);
+}
 .me {
     padding: 8px 0px 8px 0px;
 }
@@ -86,6 +107,15 @@ body{
 }
 .m-l110 {
     margin-left: 110px;
+}
+.cardbox {
+    margin-top: 8px;
+    padding: 24px 24px 48px 24px;
+    border-radius: 10px;
+    transition-duration: 0.5s;
+}
+.cardbox:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1)
 }
 .p-y3 {
     padding-top: 3rem;
